@@ -1,0 +1,5 @@
+@import url(./theme.css);
+h1 {
+    color: var(--darkBlue);
+    font-family: var(--font-primary);
+}
