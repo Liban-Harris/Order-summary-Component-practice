@@ -13,5 +13,10 @@
     --lightGrey: hsl(228, 2%, 58%);
     --darkGrey: hsl(240, 1%, 15%);
 
+    --shadowSmall: 0 0.25rem 0.5rem hsla(0, 0%, 0%,0.5);
+    --shadowLarge: 0 2rem 2rem hsla(245, 75%, 52%,0.2);
+
+    --transitionOut: 0.1s ease-in;
+    --transitionIn:0.15s ease-out;
 
 }
