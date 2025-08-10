@@ -1,0 +1,47 @@
+/* * {
+    border: 1px red solid;
+} */
+.annual-plan {
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 0.8rem;
+    padding: 1rem;
+    background-color: var(--eggshellWhite);
+
+    color: var(--darkBlue); 
+    font-weight: 900;
+}
+
+.annual-plan__price {
+    color: var(--lightGrey);
+    font-weight: 500;
+    
+}
+
+.annual-plan__change-link {
+    color: var(--brightBlue);
+    font-weight: 700;
+    transition: color var(--transitionOut);
+}
+
+.annual-plan__change-link:hover {
+    color: var(--desaturatedBlue);
+    text-decoration: none;
+    transition: color var(--transitionIn);
+}
+
+.annual-plan__content--left,
+.annual-plan__content--right {
+    display: flex;
+    align-items:center;
+    gap: 1.25rem;
+    
+}
+
+@media screen and (width > 700px) {
+    .annual-plan {
+        padding: 1.5rem; 
+        font-size: 1.2rem;
+    }
+}
