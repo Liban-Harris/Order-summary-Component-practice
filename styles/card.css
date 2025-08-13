@@ -1,0 +1,12 @@
+.card {
+    background-color: #FFF;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    box-shadow: var(--shadowSmall), var(--shadowLarge);
+}
+
+.card-banner {
+    display:block;
+    width:100%;
+}

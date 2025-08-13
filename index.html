@@ -9,17 +9,37 @@
   <link rel="stylesheet" href="./styles/theme.css">
 </head>
 <body>
-  <div class="annual-plan">
-    <div class="annual-plan__content--left">
-      <img src="./images/icon-music.svg" alt="Music Note">
-      <div>
-        <div class="annual-plan__label">Annual Plan</div>
-        <div class="annual-plan__price">$59.99/year</div>
+  <div class="card-wrapper">
+    <div class="card">
+      <img class="card-banner" src="./images/illustration-hero.svg" alt="An illistration of a girl with headphones listening to music in front of a night sky">
+      
+      <div class="card-layout">
+        <div class="card-layout__slot">
+          <h1 class="title">Order Summary</h1>
+
+          <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>  
+        <div class="card-layout__slot">
+          <div class="annual-plan">
+            <div class="annual-plan__content--left">
+              <img src="./images/icon-music.svg" alt="Music Note">
+              <div>
+                <div class="annual-plan__label">Annual Plan</div>
+                <div class="annual-plan__price">$59.99/year</div>
+              </div>
+            </div>
+            <div class="annual-plan__content--right"><a class="annual-plan__change-link" href="#">Change</a></div>
+          </div>
+        </div>
+        <div class="card-layout__slot">
+          <a class="btn" href="#">Proceed to Payment</a>
+        </div>
+        <div class="card-layout__slot">
+          <a class="cancel" href="#">Cancel Order</a>
+        </div>
       </div>
     </div>
-    <div class="annual-plan__content--right"><a class="annual-plan__change-link" href="#">Change</a></div>
   </div>
-  <!-- <a class="btn" href="#">Proceed to Payment</a> -->
 </body>
 </html>
   <!-- Order Summary

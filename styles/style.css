@@ -1,6 +1,58 @@
 @import url(./theme.css);
 @import url(./btn.css);
 @import url(./annual-plan.css);
+@import url(./card.css);
 html {
     font-family: var(--font-primary);
+    /* writing-mode: vertical-rl; //this changes orientation*/
 }
+body {
+    /* padding: 1rem; */
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--paleBlue);
+}
+.card-wrapper {
+    max-width: 55vh;
+    min-width: 22rem;
+    margin: auto;
+}
+.card-layout {
+    text-align: center;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+}
+
+.card-layout__slot {
+    margin-block: 2rem;
+}
+
+.title {
+    font-weight: 800;
+    color: var(--darkBlue);
+}
+
+.description {
+    color: var(--lightGrey);
+}
+
+.cancel {
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--lightGrey);
+}
+.cancel:hover {
+    color: var(--darkBlue);
+}
+
+
+@media  screen and (width> 700px) {
+    .card-wrapper {
+        width: 60vh;    
+    }
+
+
+}
+
