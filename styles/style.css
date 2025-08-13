@@ -14,7 +14,7 @@ body {
     background-color: var(--paleBlue);
 }
 .card-wrapper {
-    max-width: 30rem;
+    max-width: 26rem;
     min-width: 22rem;
     margin: auto;
 }
