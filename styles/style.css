@@ -14,19 +14,22 @@ body {
     background-color: var(--paleBlue);
 }
 .card-wrapper {
-    max-width: 55vh;
+    max-width: 26rem;
     min-width: 22rem;
     margin: auto;
 }
 .card-layout {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
     text-align: center;
     padding-inline: 3rem;
-    padding-block: 1rem;
+    padding-block: 3rem;
 }
 
-.card-layout__slot {
+/* .card-layout__slot {
     margin-block: 2rem;
-}
+} */
 
 .title {
     font-weight: 800;
